@@ -10,4 +10,9 @@ public class VersioningController {
     public String versionTestOne(){
         return "Hello Version Test One!";
     }
+
+    @GetMapping("/test/dev")
+    public String versionTestTwo(){
+        return "Hello Version Test Two From Dev!";
+    }
 }
