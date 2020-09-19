@@ -15,4 +15,9 @@ public class VersioningController {
     public String versionTestTwo(){
         return "Hello Version Test Two From Dev!";
     }
+
+    @GetMapping("/test/qa")
+    public String versionTestThree(){
+        return "Hello Version Test Three From QA!";
+    }
 }
